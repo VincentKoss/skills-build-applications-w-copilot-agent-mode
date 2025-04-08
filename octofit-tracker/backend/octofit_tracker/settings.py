@@ -78,7 +78,7 @@ WSGI_APPLICATION = "octofit_tracker.wsgi.application"  # Updated app name
 
 DATABASES = {
     "default": {
-        "ENGINE": "djongo",
+        "ENGINE": "djongo",  # Database engine explicitly added
         "NAME": "octofit_db",
         "HOST": "localhost",
         "PORT": 27017,
