@@ -80,11 +80,8 @@ DATABASES = {
     "default": {
         "ENGINE": "djongo",
         "NAME": "octofit_db",
-        "ENFORCE_SCHEMA": True,  # Optional: Enforce schema validation
-        "CLIENT": {
-            "host": "127.0.0.1",  # Update with your MongoDB host
-            "port": 27017,         # Update with your MongoDB port
-        },
+        "HOST": "localhost",
+        "PORT": 27017,
     }
 }
 
