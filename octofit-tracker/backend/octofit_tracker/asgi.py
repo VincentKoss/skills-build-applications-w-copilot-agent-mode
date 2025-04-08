@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "octofit_app.settings")  # Updated app name
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "octofit_tracker.settings")  # Updated app name
 
 application = get_asgi_application()

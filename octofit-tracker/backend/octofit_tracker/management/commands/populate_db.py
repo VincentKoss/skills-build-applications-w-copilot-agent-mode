@@ -1,5 +1,5 @@
 from django.core.management.base import BaseCommand
-from octofit_app.models import User, Team, Activity, Leaderboard, Workout  # Updated app name
+from octofit_tracker.models import User, Team, Activity, Leaderboard, Workout  # Updated app name
 from datetime import timedelta
 from bson import ObjectId
 

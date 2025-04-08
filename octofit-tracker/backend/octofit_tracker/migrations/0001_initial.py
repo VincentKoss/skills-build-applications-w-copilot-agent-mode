@@ -53,7 +53,7 @@ class Migration(migrations.Migration):
                     "members",
                     djongo.models.fields.ArrayReferenceField(
                         on_delete=django.db.models.deletion.CASCADE,
-                        to="octofit_app.user",
+                        to="octofit_tracker.user",
                     ),
                 ),
             ],
@@ -72,7 +72,7 @@ class Migration(migrations.Migration):
                     "user",
                     models.ForeignKey(
                         on_delete=django.db.models.deletion.CASCADE,
-                        to="octofit_app.user",
+                        to="octofit_tracker.user",
                     ),
                 ),
             ],
@@ -92,7 +92,7 @@ class Migration(migrations.Migration):
                     "user",
                     models.ForeignKey(
                         on_delete=django.db.models.deletion.CASCADE,
-                        to="octofit_app.user",
+                        to="octofit_tracker.user",
                     ),
                 ),
             ],
